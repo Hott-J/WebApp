@@ -1,10 +1,8 @@
-package jpabook.jpashop.domain.Service;
+package jpabook.jpashop.Service;
 
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.repository.MemberRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional; // 스프링의 transactional을 사용하자!
 

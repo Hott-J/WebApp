@@ -1,4 +1,4 @@
-package jpabook.jpashop.domain.Service;
+package jpabook.jpashop.Service;
 
 import jpabook.jpashop.domain.item.Item;
 import jpabook.jpashop.repository.ItemRepository;
@@ -28,4 +28,3 @@ public class ItemService {
         return itemRepository.findOne(itemId);
     }
 }
-s
